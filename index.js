@@ -16,10 +16,11 @@ function johnLennonFacts(facts)
 {
   //var newFacts = new Array(facts.length);
   var i = 0;
+  var exclamation = '!!!';
   while(i < facts.length)
   {
     //newFacts[i] =
-    facts[i] + "!!!";
+    facts[i] ${exclamation};
     i++;
   }
   return facts;
