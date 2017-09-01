@@ -32,9 +32,9 @@ function iLoveTheBeatles(number)
   do
   {
     emptyArray[number] = "I love the Beatles!";
-    number+=1;
+    number++1;
   }
-  while (number < 15)
+  while (number < 15);
 
   return emptyArray;
 
