@@ -20,7 +20,7 @@ function johnLennonFacts(facts)
   while(i < facts.length)
   {
     //newFacts[i] =
-    facts[i]${exclamation};
+    facts[i] + ${exclamation};
     i++;
   }
   return facts;
